@@ -6,7 +6,7 @@
 
   This is a fully responsive Smart Calculator, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://ecommerce-add-to-card.netlify.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://smartdigit.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
