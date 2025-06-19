@@ -1,0 +1,199 @@
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    to right,
+    rgb(93, 204, 229),
+    rgba(71, 229, 176, 0.596) );
+    
+  
+  
+
+}
+
+
+
+.container {
+  margin: 20px;
+
+  
+}
+
+.quotes {
+ 
+ 
+  font-size: 1.4rem;
+  font-family: cursive;
+  font-style: italic;
+  color: rgb(160, 103, 17);
+
+
+
+}
+.calculator {
+  font-size: 4rem;
+  font-family: cursive;
+  font-style: italic;
+  color: rgb(10, 75, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.text-center {
+  text-align: center;
+}
+
+.flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #fff;
+  margin: 5px;
+  padding: 30px;
+
+  border-radius: 20px;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+
+  cursor: pointer;
+  font-size: 21px;
+  background-color: rgba(0, 0, 0, 0.68);
+  color: white;
+}
+
+@keyframes button2 {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+}
+
+.button:hover {
+  animation-name: button2;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-delay: none;
+}
+
+@keyframes button1 {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+}
+
+.equal {
+  width: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+.row input {
+  margin: 0;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 9px;
+  font-size: 24px;
+  background-color: rgba(109, 94, 94, 0.68);
+  color: white;
+  border-top: 5px solid black;
+  border-left: 4.5px solid black;
+}
+
+.orange{
+    background: orange;
+}
+
+
+.green:active{
+    
+    background-color: rgb(41, 188, 41);
+   
+}
+
+.blue{
+    background-color: rgba(0, 0, 255, 0.632);
+}
+
+@media  (max-width: 600px) {
+  body,html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  
+  .main-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+ 
+  }
+
+  .calculator {
+    font-size: 2.6rem;
+  }
+
+  .button {
+    padding: 20px;
+    font-size: 18px;
+  }
+.equal{
+     padding: 20px;
+         font-size: 18px;
+}
+
+
+  .row input {
+    width: 80%;
+    font-size: 20px;
+    padding: 15px;
+  }
+  .quotes{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .container {
+    margin-bottom: 100px ;
+  
+  }
+  
+}
